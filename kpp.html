@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icondjpw.svg">
+    <title>Dashboard Survei DJP</title>
+</head>
+<body>
+    <!-- header start -->
+     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 border-b-[1px]">
+        <div class="container">
+            <div class="flex items-center justify-between relative p-2">
+                <div class="px-4">
+                    <img src="img/logo_djp_bw.png" class="w-36" alt="">
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full md:shadow-none md:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="index.html#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="index.html#nasional" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Nasional</a>
+                            </li>
+                            <li class="group">
+                                <a href="index.html#kanwil" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Kanwil</a>
+                            </li>
+                            <li class="group">
+                                <a href="kpp.html" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">KPP</a>
+                            </li>
+                            <li class="group">
+                                <a href="#" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Kontak</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+     </header>
+     <!-- header end -->
+
+      <!-- kpp section start -->
+       <section id="kpp" class="pt-36 pb-16">
+                <div class="container">
+                    <h2 class="text-center text-2xl mb-3 text-blue-950">Indeks Survei KPP</h2>
+                    <div class="w-ful lg:px-4">
+                        <div class="max-w-full mx-auto text-center shadow-lg shadow-slate-400">
+                            <div class="grid grid-cols-5 divide-x-2 bg-slate-300 text-slate-800 items-center rounded-t-lg w-full lg:py-2 lg:text-sm text-xs py-4">
+                                <div>Unit Kerja</div>
+                                <div>Responden</div>
+                                <div><span class="hidden lg:inline">Indeks Kepuasan</span> Pelayanan</div>
+                                <div><span class="hidden lg:inline">Indeks Efektivitas</span> Penyuluhan</div>
+                                <div><span class="hidden lg:inline">Indeks Efektivitas</span> Kehumasan</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-semibold text-slate-900 border-b-2">
+                                <div class="text-left pl-2">Kanwil DJP Aceh</div>
+                                <div>284</div>
+                                <div>3,97</div>
+                                <div>3,92</div>
+                                <div>3,90</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-4">KPP Pratama Banda Aceh</div>
+                                <div>284</div>
+                                <div>3,97</div>
+                                <div>3,92</div>
+                                <div>3,90</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-4">KPP Pratama Meulaboh</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-4">KPP Pratama Bireun</div> 
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-4">KPP Pratama Tapak Tuan</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-4">KPP Pratama Langsa</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-4">KPP Pratama Aceh Besar</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-4">KPP Pratama Lhokseumawe</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-4">KPP Pratama Subulussalam</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                        </div> 
+                    </div>
+                    <button class="bg-blue-950 py-1 px-2 rounded block mx-auto mt-4 text-white text-sm"><a href="index.html#kanwil">kembali</a></button> 
+                </div>
+       </section>
+       <!-- kpp section end -->
+
+      <script src="script.js"></script>
+</body>
+</html\]

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icondjpw.svg">
+    <title>Dashboard Survei DJP</title>
+</head>
+<body>
+    <!-- header start -->
+     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative p-2">
+                <div class="px-4">
+                    <img src="img/logo_djp_bw.png" class="w-36" alt="">
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full md:shadow-none md:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="#nasional" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Nasional</a>
+                            </li>
+                            <li class="group">
+                                <a href="#kanwil" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Kanwil</a>
+                            </li>
+                            <li class="group">
+                                <a href="kpp.html" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">KPP</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+     </header>
+     <!-- header end -->
+    <!-- Hero Section Start -->
+     <section id="home" class="lg:pt-44 pt-48 pb-72">
+        <div class="container mt-20">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-primary md:text-xl mb-3">Selamat Datang di<span class="block font-bold text-dark text-2xl mt-1 lg:text-5xl">Dashboard Survei DJP</span></h1>
+                    <h2 class="font-medium text-secondary text-lg mb-5">Survei Triwulan I<span class="text-dark"> s.d. Triwulan IV</span></h2>
+                    <p class="font-medium text-secondary mb-6  leading-relaxed text-justify">Indeks Kepuasan Pelayanan, Efektivitas Penyuluhan dan Kehumasan merupakan capaian bagi para Kepala Kantor Wilayah, sedangkan Indeks Kepuasan Pelayanan dan Efektivitas Penyuluhan merupakan capaian bagi para Kepala Kantor Pelayanan Pajak dalam perhitungan Nilai Kinerja Organisasi <span class="text-dark font-bold">(NKO)</span></p>
+                    <a href="#nasional" class="text-base font-semibold bg-primary text-white py-3 px-8 rounded-lg hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Telusuri</a>
+                </div>
+                <div class="w-1/2 self-end px-4 mx-auto mt-2 hidden lg:block">
+                    <div class="mt-10 relative lg:mt-9 lg:right-0">
+                        <img src="img/logodjp.png" alt="teguh" class=" w-4/5 lg:w-1/4 mx-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Hero Section End -->
+     <!-- nasional section start-->
+      <section id="nasional" class="pt-36 pb-96 bg-white">
+        <div class="container flex justify-center mb-8 lg:mb-16">
+            <div class="bg-blue-900 w-4/5 lg:w-1/2 text-white py-6 lg:py-4  rounded-xl">
+                <div class="text-center font-extrabold  text-base lg:text-2xl">Survei Kepuasan Pelayanan dan </div>
+                <div class="text-center font-extrabold text-base lg:text-2xl">Efektivitas Penyuluhan dan Kehumasan</div>
+                <div class="text-base lg:text-2xl text-center font-thin">Direktorat Jenderal Pajak Tahun 2023</div>
+            </div>
+        </div>    
+            <div class="container mx-auto flex flex-wrap  justify-between mb-10">
+                <div class="rounded-2xl shadow-2xl w-full lg:w-1/4 bg-blue-900 mb-2">
+                        <div class="flex flex-wrap justify-center py-10">
+                                <div class="text-white text-xl font-thin mb-4">Indeks <span class="font-bold">Kepuasan Pelayanan</span></div>
+                                <div class="flex justify-center bg-white rounded-lg p-1">
+                                    <div class="mix-blend p-1 text-blue-800 text-4xl items-center rounded-lg font-bold mr-2">3,32</div>
+                                    <div class="mix-blend p-1 bg-blue-900 text-white text-4xl rounded-lg font-thin">82,96</div>
+                                </div>
+                        </div>
+                </div>
+                <div class="rounded-2xl shadow-2xl w-full lg:w-1/4 bg-blue-900 mb-2">
+                    <div class="flex flex-wrap justify-center py-10">
+                            <div class="text-white text-xl font-thin mb-4">Indeks <span class="font-bold">Efektivitas Penyuluhan</span></div>
+                            <div class="flex justify-center bg-white rounded-lg p-1">
+                                <div class="mix-blend p-1 text-blue-800 text-4xl items-center rounded-lg font-bold mr-2">3,27</div>
+                                <div class="mix-blend p-1 bg-blue-900 text-white text-4xl rounded-lg font-thin">81,66</div>
+                            </div>
+                    </div>
+                </div>
+                <div class="rounded-2xl shadow-2xl w-full lg:w-1/4 bg-blue-900">
+                <div class="flex flex-wrap justify-center py-10">
+                        <div class="text-white text-xl font-thin mb-4">Indeks <span class="font-bold">Efektivitas Kehumasan</span></div>
+                        <div class="flex justify-center bg-white rounded-lg p-1">
+                            <div class="mix-blend p-1 text-blue-800 text-4xl items-center rounded-lg font-bold mr-2">3,30</div>
+                            <div class="mix-blend p-1 bg-blue-900 text-white text-4xl rounded-lg font-thin">82,46</div>
+                        </div>
+                </div>
+        </div>
+            </div>
+            <div class="container mx-auto flex flex-wrap  justify-between">
+                <div class="rounded-2xl shadow-2xl w-full  lg:w-1/4 bg-blue-900 mb-2">
+                        <div class=" grid lg:flex flex-wrap justify-center py-10">
+                                <div class="text-white text-xl font-thin mb-4">Responden <span class="font-bold">Orang Pribadi</span></div>
+                                <div class="justify-center bg-white rounded-lg p-1">
+                                    <div class="mix-blend px-6 py-2 bg-blue-900 text-yellow-500 text-center text-4xl rounded-lg font-bold text">17.140</div>
+                                </div>
+                        </div>
+                </div>
+                <div class="rounded-2xl shadow-2xl w-full lg:w-1/4 bg-blue-900 mb-2">
+                    <div class="grid lg:flex flex-wrap justify-center py-10">
+                            <div class="text-white text-xl font-thin mb-4">Responden <span class="font-bold">Badan Usaha</span></div>
+                            <div class="justify-center bg-white rounded-lg p-1">
+                                <div class="mix-blend px-6 py-2 bg-blue-900 text-yellow-500 text-center text-4xl rounded-lg font-bold">22.628</div>
+                            </div>
+                    </div>
+                </div>
+                <div class="rounded-2xl shadow-2xl w-full lg:w-1/4 bg-blue-900">
+                <div class=" grid lg:flex flex-wrap justify-center py-10">
+                        <div class="text-white text-xl font-thin mb-4">Responden <span class="font-bold">Bendahara</span></div>
+                        <div class="justify-center bg-white rounded-lg p-1">
+                            <div class="mix-blend px-6 py-2 bg-blue-900 text-yellow-500 text-center text-4xl rounded-lg font-bold">2.287</div>
+                        </div>
+                </div>
+        </div>
+            </div>
+      </section>
+      <!-- nasional section end -->
+
+      <!-- kanwil section start -->
+       <section id="kanwil" class="pt-36 pb-16 bg-slate-100">
+                <div class="container">
+                    <h2 class="text-center mb-3 text-2xl font-semibold text-blue-950">Indeks Survei Kantor Wilayah</h2>
+                    <div class="w-ful lg:px-4">
+                        <div class="max-w-full mx-auto text-center mb-16 shadow-lg">
+                            <div class="grid grid-cols-5 divide-x-2 bg-slate-300 text-slate-800 items-center rounded-t-lg w-full lg:py-2 lg:text-sm text-xs py-4">
+                                <div>Unit Kerja</div>
+                                <div>Responden</div>
+                                <div><span class="hidden lg:inline">Indeks Kepuasan</span> Pelayanan</div>
+                                <div><span class="hidden lg:inline">Indeks Efektivitas</span> Penyuluhan</div>
+                                <div><span class="hidden lg:inline">Indeks Efektivitas</span> Kehumasan</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-2 hover:text-primary hover:font-semibold"><a href="kpp.html">Kanwil DJP Aceh</a></div>
+                                <div>284</div>
+                                <div>3,97</div>
+                                <div>3,92</div>
+                                <div>3,90</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-2">Kanwil DJP Bali</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-2">Kanwil DJP Banten</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-2">Kanwil DJP Bengkulu dan Lampung</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-2">Kanwil DJP D.I. Yogyakarta</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-2">Kanwil DJP Jakarta Barat</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-2">Kanwil DJP Jakarta Khusus</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-2">Kanwil DJP Pusat</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-2">Kanwil DJP Jakarta Selatan I</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-2">Kanwil Jakarta Selatan II</div>
+                                <div>284</div>
+                                <div>3,97</div>
+                                <div>3,92</div>
+                                <div>3,90</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-2">Kanwil DJP Jakarta Timurs</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-2">Kanwil DJP Jakarta Utara</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-2">Kanwil DJP Jawa Barat I</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-2">Kanwil DJP Jawa Barat II</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-2">Kanwil DJP Jawa Barat III</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-extralight text-slate-900">
+                                <div class="text-left pl-2">Kanwil DJP Jawa Tengah I</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="grid grid-cols-5 divide-x-2 bg-white mt-[2px] py-2 text-xs font-thin text-slate-900">
+                                <div class="text-left pl-2">Kanwil Jawa Tengah II</div>
+                                <div>200</div>
+                                <div>3,97</div>
+                                <div>3,75</div>
+                                <div>3,88</div>
+                            </div>
+                            <div class="flex justify-between py-2 px-4 ">
+                                <div class="hover:font-bold text-slate-800"> <a href="">&laquo; back </a></div>
+                                <div class="hover:font-bold text-slate-800"><a href="">next &raquo;</a></div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+       </section>
+       <!-- kanwil section end -->
+
+      <script src="script.js"></script>
+</body>
+</html\]
